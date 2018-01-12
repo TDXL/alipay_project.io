@@ -1,0 +1,595 @@
+.gw {
+    width: 1200px;
+    margin: 0 auto;
+}
+.gHelpService {
+    position: absolute;
+    right: 75px;
+    top: 30px;
+    width: 280px;
+    height: 180px;
+    background-color: #313031;
+    z-index: 5;
+    display: none;
+}
+
+.gHelpLinks {
+    padding: 10px 0;
+}
+
+.gHelpLinks a {
+    display: block;
+    width: 265px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.gHelpLinks a:hover {
+    background-color: #1c1c1c;
+}
+
+.gContactUs {
+    margin: 0px 15px 20px;
+    padding-top: 10px;
+    border-top: 1px solid #595959;
+}
+
+.gContactUs h5 {
+    color: #949494;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.gContactUs a {
+    color: #53bdfa;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.gContactUs .gWorkTime {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/*固定定位的小图*/
+#gContactMe {
+    position: fixed;
+    right: 3px;
+    top: 215px;
+    z-index: 1;
+}
+
+#gContactMe.active {
+    display: none;
+}
+
+#gContactMe #gClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #eee;
+    text-align: center;
+    color: #ac593f;
+    font-size: 20px;
+}
+
+#gContactMe #gCloseDiv {
+    display: none;
+    z-index: 10;
+    width: 44px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid #808080;
+    background-color: #fff;
+    color: #666;
+    position: absolute;
+    top: -40px;
+    right: -5px;
+}
+
+/*header部分*/
+.gHeader {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    background-color: #3a3a3a;
+}
+
+.gHeader a {
+    color: #b0b0b0;
+}
+
+.gHeader a:first-child {
+    margin-right: 10px;
+}
+
+.gHeader a:hover {
+    color: white;
+}
+
+.gRightBox a {
+    display: inline-block;
+}
+
+.gRightBox .gLine {
+    margin: 0 11px 0 7px;
+    color: #fff;
+}
+
+.gLeftBox, .gRightBox {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+/*gnav部分*/
+.gNav {
+    height: 80px;
+}
+
+.gNav img {
+    height: 70px;
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+.gNav ul li {
+    float: left;
+    line-height: 80px;
+}
+
+.gNav ul li a {
+    color: #444;
+    font-size: 16px;
+    padding: 0 32px;
+    height: 78px;
+    line-height: 78px;
+    display: inline-block;
+}
+
+.gNav ul li a:hover {
+    color: #00b1ec;
+    border-bottom: 2px solid #00b1ec;
+}
+
+.gPlans {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    left: 0;
+    top: 110px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    display: none;
+}
+
+.gSortPlan {
+    float: left;
+    width: 225px;
+    color: #fff;
+    font-size:16px;
+    border-right: 2px solid #444343;
+}
+
+.gSortPlan li {
+    width: 113px;
+    height: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    color:#fff;
+    border-right: 2px solid #444343;
+    padding-left: 112px;
+    cursor: pointer;
+}
+
+.gSortPlan li:first-child {
+    color: #19acf7;
+    border-right: 1px solid #19acf7;
+}
+
+.gDetails li {
+    float: left;
+    width: 302px;
+    height: 68px;
+    margin: 0 0 16px 28px;
+    padding-left: 18px;
+    background-color: #292929;
+    cursor: pointer;
+}
+
+#gGov, #gShare {
+    display: none;
+}
+
+.gDetails li h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 12px 0 10px;
+}
+
+.gDetails li p {
+    color: #909090;
+    font-size: 12px;
+}
+
+.gDetails ul {
+    display: block;
+}
+
+/*轮播图部分*/
+.gBanner {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.gContent {
+    height: 360px;
+    width: 600%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.gContent img {
+    height: 360px;
+}
+
+.gBanner ul {
+    position: absolute;
+    left: 620px;
+    bottom: 20px;
+}
+
+.gBanner ul li {
+    float: left;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.gBanner ul li.active {
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/*登录部分*/
+.gLogin {
+    position: absolute;
+    right: 90px;
+    top: 32px;
+    width: 286px;
+    height: 295px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/*登录精灵图部分*/
+.gLogin #gSpirit {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.gLogin #gSpirit img {
+    position: absolute;
+    left: -260px;
+    top: -260px;
+}
+
+/*二维码部分*/
+.gLogin #gEwm {
+    width: 286px;
+    height: 295px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.gLogin #gEwm h4 {
+    margin: 31px 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gLogin #gEwm .gScan {
+    margin: 14px 0 20px;
+    font-size: 14px;
+    font-family: tahoma, arial, "Hiragino Sans GB", \5b8b\4f53;
+}
+
+.gLogin #gEwm .gIntro a {
+    color: #fff;
+    font-size: 12px;
+    font-family: tahoma, arial, "Hiragino Sans GB", \5b8b\4f53;
+}
+
+.gLogin #gEwm .gLine {
+    margin: 0 15px;
+}
+
+.gLogin #gAccount {
+    width: 286px;
+    height: 295px;
+    padding: 31px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.gLogin #gAccount h4 {
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+#gAccount .gUser, .gPwd {
+    margin-bottom: 10px;
+}
+
+#gAccount .gUserLogo, .gPwdlogo {
+    display: inline-block;
+    background-color: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+}
+
+#gAccount img {
+    width: 22px;
+    margin-top: 9px;
+}
+
+#gAccount input {
+    width: 180px;
+    height: 40px;
+}
+
+#gAccount > a {
+    display: block;
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#gAccount > a:hover {
+    text-decoration: underline;
+}
+
+#gAccount .gLoginBtn {
+    width: 219px;
+    height: 40px;
+    background-color: #00aaee;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+#gAccount .gLoginBtn a {
+    color: #fff;
+    font-family:\5b8b\4f53;
+}
+#gAccount .gLinks{
+    text-align: left;
+}
+#gAccount .gLinks a{
+    color: #fff;
+    font-size: 12px;
+
+}
+
+#gAccount .gLinks span a {
+    color: #00aaee;
+    float: right;
+}
+
+#gAccount .gLinks a:hover {
+    text-decoration: underline;
+}
+
+/*最新公告部分*/
+.gNews {
+    margin: 20px auto 40px;
+}
+
+.gNewest {
+    margin-right: 30px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fa991b;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gNews ul li {
+    float: left;
+    margin-right: 50px;
+    height: 25px;
+    width: 265px;
+    font-size: 14px;
+    line-height: 25px;
+    position: relative;
+}
+
+.gNews ul li a {
+    color: #000;
+}
+
+.gNews ul li span {
+    color: #9a9a9a;
+}
+
+.gNews ul li img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.gNews .fr a {
+    color: #9a9a9a;
+}
+
+/*支付方式*/
+.gPayWay li {
+    float: left;
+    width: 198px;
+    height: 238px;
+    margin-right: 50px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+    transition: 1s;
+    position: relative;
+    overflow: hidden;
+}
+
+.gPayWay li:last-child {
+    margin-right: 0;
+}
+.gPayWay li>img {
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 49px;
+}
+.gPayWay li div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65px;
+    height: 68px;
+}
+.gPayWay li div img{
+    width: 68px;
+    height: 68px;
+}
+.gPayWay h4 {
+    position: absolute;
+    bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    font-family:"Microsoft YaHei",Tahoma,sans-serif;
+}
+
+.gPayWay li p {
+    color: #9a9a9a;
+    width: 167px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 23px;
+    top: 190px;
+}
+
+.gPayWay li span {
+    position: absolute;
+    bottom: -54px;
+    left: 16px;
+    background-color: #05a6f3;
+    border-radius: 5px;
+    color: #fff;
+    width: 166px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.gPayWay li:hover {
+    box-shadow: 0px 5px 5px 5px #ccc;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+/*更多产品*/
+.gMoreProducts {
+    padding-bottom: 56px;
+    border-bottom: 1px solid #ddd;
+}
+
+.gMoreProducts p {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.gMoreProducts p a {
+    font-size: 14px;
+    color: #00abff;
+}
+
+.gMoreProducts img {
+    width: 1200px;
+}
+
+/*版权部分*/
+.gCopyRight {
+    text-align: center;
+    font-size: 12px;
+}
+
+.gCopyRight a, .line, .gLine3 {
+    color: #ddd;
+}
+
+.gCopyRight .line {
+    margin: 0 14px 0 15px;
+}
+
+.gLine1 {
+    margin-top: 28px;
+}
+
+.gLine2, .gLine3, .gLine4 {
+    margin-top: 15px;
+}
+
+.gLine4 {
+    color: #eff3f8;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

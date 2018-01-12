@@ -1,0 +1,288 @@
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p {
+      list-style:none;
+      font-family: '方正正黑';
+      font-size: 12px;
+      color:#333333;
+}
+a {
+      /*text-decoration: none;*/
+      color:#666666;
+}
+a:hover {
+      color:#059ae3;
+}
+input,img {
+      outline-style: none;
+      /*border:0 none;*/
+      visibility: bottom;
+}
+.q2_w {
+      width: 1200px;
+      margin: 0 auto;
+}
+/*iconfont*/
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+/*顶部*/
+/*导航上面*/
+.q_nav {
+      width: 100%;
+      height:103px ;
+}
+.q_nav .navTop {
+      width: 100%;
+      height: 28px;
+      background-color: #1d1b28;
+}
+.q_nav .navTop .q2_w ul {
+      float: right;
+      display: block;
+      width: 570px;
+      height: 28px;
+      line-height: 28px;
+
+}
+.q_nav .navTop .q2_w ul li {
+      float: left;
+      margin-left: 5px;
+}
+.q_nav .navTop .q2_w ul li a {
+      color: #fff;
+}
+.q_nav .navTop .q2_w ul span {
+      color: #999999;
+      float: left;
+      margin-left: 5px;
+}
+/*二维码*/
+.q_nav .navTop .q2_w ul li svg {
+      font-size: 18px;
+      cursor: pointer;
+}
+.q_nav .navTop .q2_w ul li .navtop_r {
+      width: 100px;
+      height: 110px;
+      display: none;
+      position: absolute;
+      top:28px;
+      left: 1215px;
+      z-index: 5;
+}
+.q_nav .navTop .q2_w .navtop_r .sj {
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid #fff; 
+      border-left: 5px solid transparent; 
+      border-right: 5px solid transparent; 
+      width: 0;
+      height: 0;
+      position: absolute;
+      right: 45px;
+      top: -10px;
+}
+.q_nav .navTop .q2_w .navtop_r .erweima {
+      height: 110px;
+      width: 100px;
+      z-index: 5;
+      background-color: #fff;
+      border: 1px solid #999;
+      border-top: 0;
+}
+.q_nav .navTop .q2_w .navtop_r .erweima img {
+      display: block;
+      height: 80px;
+      width: 80px;
+      background-size: cover;
+      position: absolute;
+      top:10px;
+      left: 50%;
+      margin-left: -40px;
+}
+.q_nav .navTop .q2_w .navtop_r .erweima p {
+      position: absolute;
+      top:87px;
+      left: 50%;
+      margin-left: -47px;
+}
+/*导航下面*/
+.q_nav .navBot {
+      height: 75px;
+}
+.q_nav .navBot .logo img {
+      float: left;
+      width: 92px;
+      height: 38px;
+      background-size: contain;
+      margin-top: 20px;
+}
+.q_nav .navBot ul {
+      float: right;
+      width: 450px;
+      margin-top: 30px;
+}
+.q_nav .navBot ul li {
+      float: left;
+      margin-left: 50px;
+}
+.q_nav .navBot ul li a {
+      color: #000;
+      font-size: 16px;
+}
+.q_nav .navBot ul li a:hover {
+      color: #059ae3;
+}
+/*中部*/
+/*轮播图*/
+.q_main .q_slider {
+      width: 100%;
+      height: 480px;
+      position: relative; 
+}
+.q_main .q_slider li {
+      position: absolute;
+      display: none;
+
+}
+.q_main .q_slider li img {
+      width: 100%;
+      height: 480px;
+      background-size: cover;
+}
+.q_main .q_slider li:first-child {
+      display: block;
+      width: 100%;
+}
+.q_main .q_slider li:first-child .img1 {
+      position: absolute;
+}
+.q_main .q_slider li:first-child .img2 {
+      height: 144px;
+      width: 448px;
+      position: absolute;
+      top:150px;
+      left: 50%;
+      margin-left:-224px; 
+}
+/*底部控制按钮*/
+.q_main .q_slider .contorl{
+      width: 70px;
+      height: 14px;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      margin-left:-35px;
+}
+.q_main .q_slider .contorl span {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin-left:6px;
+      cursor: pointer;
+}
+.q_main .q_slider .contorl span.active {
+      background-color: #f24724;
+}
+
+/*我是商家*/
+.q_banner {
+      height: 560px;
+      width: 100%;
+      position: relative;
+}
+.q_banner .banner_top {
+      height: 110px;
+      width: 100%;
+}
+.q_banner .banner_top span {
+      font-size: 36px;
+      position: absolute;
+      left: 50%;
+      top:20px;
+      margin-left: -72px;
+      color: #333333;
+}
+/*我是商家中部*/
+.q_banner .banner_mid {
+      width: 100%;
+      height: 560px;
+}
+.q_banner .banner_mid ul {
+      width: 100%;
+      height: 400px;
+}
+.q_banner .banner_mid ul li {
+      float: left;
+      margin-left: 10px;
+      display: block;
+      width: 290px;
+      height: 360px;
+      border-radius: 5px 5px 0 0;
+      cursor: pointer;
+      position: relative;
+      
+}
+.q_banner .banner_mid ul li .m_t {
+      display: block;
+      width: 290px;
+      height: 180px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+}
+.q_banner .banner_mid ul li .m_t img{
+    background-size:cover;
+    display: block;
+    width: 290px;
+    height: 180px;
+}
+.q_banner .banner_mid ul li a {
+      display: block;
+      width: 290px;
+      height: 180px;
+      background-color: rgba(0,0,0,.06);
+      text-align: center;
+}
+.q_banner .banner_mid ul li a p {
+      font-size: 24px;
+}
+.q_banner .banner_mid ul li a div {
+      font-size: 14px;
+      color: #666666;
+}
+/*底部*/
+.q_footer {
+      height: 100px;
+      width: 100%;
+      background-color: #1d1a29;
+      position: relative;
+}
+.q_footer ul {
+      display: block;
+      width:250px; 
+      height: 14px;
+      position: absolute;
+      left: 50%;
+      top:28px;
+      margin-left: -125px;
+}
+.q_footer ul li,span {
+      float: left;
+}
+.q_footer ul li a,span {
+      color:#a9a8ae;
+      font-size: 15px;
+
+}
+.q_footer p {
+     font-size: 15px;
+     color: #a9a8ae;
+     position: absolute;
+     left: 50%;
+     top:60px;
+     margin-left: -373px;
+
+}
